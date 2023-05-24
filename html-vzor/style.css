@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+
+/* menu */
+.menu {
+	display: flex;
+	background-color: #e5e5e5;
+	margin-bottom: 2rem;
+}
+
+.menu a {
+	display: block;
+	padding: 1rem 2rem;
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #d5d5d5;
+}
+
+.menu a.active {
+	background-color: #c5c5c5;
+}
+
+
+/* movies */
+.movies-container {
+	display: flex;
+	align-items: start;
+	gap: 2rem;
+}
+
+
+
+/* movie list */
+.movie-list {
+	flex: 0 0 25%;
+	display: flex;
+	flex-direction: column;
+	background-color: #c2dffc;
+}
+
+.movie-list a {
+	display: block;
+	padding: 1rem;
+	color: black;
+	text-decoration: none;
+}
+
+.movie-list a:hover {
+	background-color: #a0cfff;
+}
+
+.movie-list a.active {
+	background-color: #53a9ff;
+	color: white;
+}
