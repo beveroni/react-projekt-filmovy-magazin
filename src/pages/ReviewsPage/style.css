@@ -1,0 +1,24 @@
+main {
+  background-color: #fff;
+  /* Barva pozadí */
+  padding: 20px;
+  /* Odstup okolo obsahu */
+}
+
+main h2 {
+  color: #333;
+  /* Barva nadpisu */
+  font-size: 24px;
+  /* Velikost písma nadpisu */
+  margin-bottom: 10px;
+  /* Odstup pod nadpisem */
+}
+
+main p {
+  color: #666;
+  /* Barva textu odstavce */
+  font-size: 16px;
+  /* Velikost písma odstavce */
+  line-height: 1.5;
+  /* Řádkování odstavce */
+}
